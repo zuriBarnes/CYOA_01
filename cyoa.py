@@ -1,3 +1,6 @@
+import sys
+import time
+
 def path1():
     print()
     print("This is path number 1")
@@ -20,7 +23,7 @@ def path3():
     print()
     print("This is path number 3, a it is in construction")
     print()
-
+# 
 def startGame():
     print('game started')
     print('choose a path')
