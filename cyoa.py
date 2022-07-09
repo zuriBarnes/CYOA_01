@@ -23,7 +23,7 @@ def path3():
     print()
     print("This is path number 3, a it is in construction")
     print()
-# 
+
 def startGame():
     print('game started')
     print('choose a path')
@@ -43,8 +43,16 @@ def endGame():
     print('Game Over')
 
 def intro():
-    print("Welcome to a choose your own adventure game")
-    playgame = input("Do you want to start the game? (Y/n)").lower()
+    print("")
+    print("")
+    print("================================================")
+    print("")
+    print("  -Welcome to a choose your own adventure game- ")
+    print("")
+    print("================================================")
+    print("")
+    print("")
+    playgame = input("Do you want to start the game?(Y/n) ").lower()
     if playgame == 'n':
         print("Ok, maybe later")
         return
