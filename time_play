@@ -1,0 +1,19 @@
+
+from email.errors import InvalidMultipartContentTransferEncodingDefect
+import sys
+import time
+
+a = 3
+b = 0.2
+c = 0.08
+manifesto = "This is the journey"
+
+
+name = "Zuri"
+print(f"Hello, my name is {name}")
+time.sleep(b)
+print("")
+print("") 
+game_on = input("do you want to play a game?(Y/n)").lower()
+if game_on != "n":
+    print("Welcome to the game")
