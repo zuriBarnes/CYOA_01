@@ -1,5 +1,4 @@
 
-from email.errors import InvalidMultipartContentTransferEncodingDefect
 import sys
 import time
 
